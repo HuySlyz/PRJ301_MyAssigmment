@@ -14,7 +14,7 @@
     <body>
         <h1>
             <form action="submit" method="POST">
-                Enter Array :  <INPUT  Name ="Enter array" action =" submit" method ="POST">/
+                Enter Array :  <INPUT  Name ="Enter array" action =" submit" method ="POST">
                 <INPUT TYPE="SUBMIT" NAME="submit" VALUE="submit">
 
             </form>

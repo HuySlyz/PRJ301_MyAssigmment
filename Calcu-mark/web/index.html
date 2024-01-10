@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="tinhdiem" method="POST">
+            Họ và tên :<input name="name" type="text"><br> 
+            PT:<input name="pt" type="text"><br>
+            PE:<input name ="pe" type="text"><br>
+            FE:<input name ="fe" type="text"><br>
+           Subject: <select name="subject">
+                <option>PRJ301</option>
+                <option>PRN211</option>
+                <option>PRO192</option>
+            </select><br>
+            <input type="radio" name="mark" value="0" />Bonus
+            <input type="radio" name="mark" value="1" />No Bonus<br> 
+            <input type="submit" id ="btn1" name="Submit" value="Submit">
+<!--            <script language="javascript">
+
+            document.getElementById("btn1").onclick = function ()
+            {
+                var checkbox = document.getElementsByName("tinhtoan");
+                for (var i = 0; i < checkbox.length; i++){
+                    if (checkbox[i].checked === true){
+                        alert(checkbox[i].value);
+                    }   
+                }
+            };
+
+        </script>-->
+        </form>
+    </body>
+</html>
